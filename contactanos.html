@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctanos - Venta de Videojuegos</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <header>
+        <h1>ARCADE - Venta de Videojuegos</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Página Principal</a></li>
+            <li><a href="quienes_somos.html">Quiénes Somos</a></li>
+            <li><a href="productos_servicios.html">Productos/Servicios</a></li>
+            <li><a href="contactanos.html">Contáctanos</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>Contáctanos</h2>
+        <form>
+            <label for="nombre">Nombre del Cliente:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="celular">Celular:</label>
+            <input type="tel" id="celular" name="celular" required>
+
+            <label for="email">E-Mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="tipo_producto">Tipo de Servicio/Producto:</label>
+            <select id="tipo_producto" name="tipo_producto" required>
+                <option value="producto1">RESIDENT EVIL 4</option>
+                <option value="producto2">GTA SAN ANDREAS</option>
+                <option value="producto3">HALLO</option>
+                <option value="producto4">CALL OF DUTY</option>
+                <option value="producto5">ZELDA</option>
+                <option value="producto6">SILENT HILL</option>
+            </select>
+
+            <label for="cantidad">Cantidad:</label>
+            <input type="number" id="cantidad" name="cantidad" required>
+
+            <label for="forma_pago">Forma de Pago:</label>
+            <select id="forma_pago" name="forma_pago" required>
+                <option value="tarjeta">Tarjeta</option>
+                <option value="deposito">Depósito</option>
+                <option value="oxxo">Pago en Oxxo</option>
+            </select>
+
+            <button type="submit">Enviar</button>
+            <button type="reset">Borrar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Desarrollador: Guillermo Castro</p>
+    </footer>
+</body>
+
+</html>
